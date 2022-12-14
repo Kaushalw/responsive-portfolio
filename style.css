@@ -1,0 +1,1375 @@
+@import url('https://fonts.googleapis.com/css2?family=Handlee&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=Cinzel&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap');
+
+li {
+   float: left;
+   margin-left: 15px;
+   color: white;
+   font-size: 15px;
+   display: flex;
+   font-weight: 500;
+   font-family:'Handlee', cursive;  
+
+}
+ 
+
+li:hover {
+   color: aqua;
+   transition: 0.8s ease;
+
+
+
+}
+
+ul {
+   list-style-type: circle;
+
+
+
+}
+
+* {
+   margin: 0px;
+   padding: 0px;
+}
+
+nav {
+   cursor: pointer;
+   height: 33px;
+   z-index: 99;
+   width: 100%;
+   height: 40px;
+   padding-top: 20px;
+   display: flex;
+   justify-content: right;
+   position: fixed;
+   transition: 1s ease;
+   background: black;
+
+
+}
+
+body {
+   background: black;
+   color: white;
+   background-attachment: fixed;
+   justify-content: center;
+   height: 100vw;
+
+}
+
+html {
+   scroll-behavior: smooth;
+}
+
+img {
+   pointer-events: none;
+}
+
+img.logo {
+   height: 30px;
+   width: auto;
+   position: fixed;
+   top: 10px;
+   margin-left: 1px;
+   z-index: 99;
+
+}
+
+.textbg {
+   width: 100%;
+   height: auto;
+   display: flex;
+   justify-content: center;
+}
+
+
+h1 {
+   font-size: 50px;
+   position: relative;
+   top: 120px;
+   left: 5px;
+   cursor: pointer;
+   font-family: 'Archivo Black', sans-serif;
+   transition: 0.9s ease-in-out;
+   background: linear-gradient(90deg, rgb(255, 255, 255) 0%, rgb(255, 255, 255) 100%);
+
+   -webkit-background-clip: text;
+   -webkit-text-fill-color: transparent;
+   font-weight: bolder;
+
+
+}
+
+
+h1 .im {
+   font-size: 15px;
+   font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+   background: linear-gradient(90deg, rgb(255, 255, 255) 0%, rgb(255, 255, 255) 100%);
+
+   -webkit-background-clip: text;
+   -webkit-text-fill-color: transparent;
+
+
+}
+
+.kaushal {
+   --start-color: #fc5b47;
+   --end-color: #f9b32f;
+   background-image: linear-gradient(260deg, var(--start-color), var(--end-color));
+   animation: kaushal 10s infinite;
+   font-size: 60px;
+   -webkit-background-clip: text;
+   -webkit-text-fill-color: transparent;
+
+
+
+}
+
+@keyframes kaushal {
+   0% {
+      filter: grayscale(0);
+   }
+
+   50% {
+      filter: grayscale(50);
+   }
+
+   100% {
+      filter: grayscale(100);
+   }
+}
+
+
+.developer {
+   font-size: 65px;
+   --start-color: rgb(0, 255, 247);
+   --end-color: rgb(6, 10, 125);
+   background-image: linear-gradient(260deg, var(--start-color), var(--end-color));
+   -webkit-background-clip: text;
+   -webkit-text-fill-color: transparent;
+   filter: brightness(1);
+   /* transition: filter 5s ease-in infinite;*/
+
+   animation: developer 10s infinite;
+
+}
+
+@keyframes developer {
+   0% {
+      filter: grayscale(100);
+   }
+
+   50% {
+      filter: grayscale(0);
+   }
+
+   100% {
+      filter: grayscale(100);
+   }
+}
+
+.designer {
+
+   font-size: 60px;
+   --start-color: #8025BE;
+   --end-color: #EA0681;
+   background-image: linear-gradient(260deg, var(--start-color), var(--end-color));
+   animation: designer 10s infinite;
+
+   -webkit-background-clip: text;
+   -webkit-text-fill-color: transparent;
+}
+
+@keyframes designer {
+   0% {
+      filter: grayscale(100);
+
+   }
+
+   50% {
+      filter: grayscale(50);
+   }
+
+   100% {
+      filter: grayscale(0);
+   }
+}
+
+
+
+
+
+
+
+.icons {
+   width: 200px;
+   height: 50px;
+   background-color: rgb(0, 0, 0);
+   justify-content: center;
+   display: flex;
+   position: relative;
+   top: 200px;
+   left: 24%;
+   transition: cubic-bezier(1, 0, 0, 1);
+
+}
+
+.icons svg {
+   height: 20px;
+   width: 20px;
+   margin-left: -5px;
+   transition: height 0.3s ease-in;
+
+
+}
+
+.icons svg:hover {
+   height: 25px;
+   width: 25px;
+   border-bottom: 1px solid rgb(8, 247, 255);
+   cursor: pointer;
+   padding-bottom: 5px;
+   border-radius: 2px;
+
+   fill: aqua;
+
+}
+
+.hr {
+   height: 0.1px;
+   border-radius: 10px;
+   position: relative;
+   top: 220px;
+   left: 10%;
+
+}
+
+.socialmedia {
+   position: relative;
+   color: grey;
+   font-family: 'Courier New', Courier, monospace;
+   top: 180px;
+   align-items: center;
+   font-size: small;
+
+}
+
+::selection {
+   color: rgb(0, 0, 0);
+
+}
+
+.buttons {
+   cursor: pointer;
+   position: relative;
+   display: flex;
+   justify-content: space-between;
+   top: 210px;
+   margin: 10px;
+
+}
+
+.viewmore {
+   background-color: transparent;
+   border: 1px solid rgb(0, 255, 200);
+   color: rgb(255, 255, 255);
+   height: 40px;
+   width: 150px;
+
+   font-weight: bold;
+   font-size: 15px;
+}
+
+.contact {
+   background-color: aqua;
+   border: 1px solid rgb(0, 255, 247);
+   color: rgb(0, 0, 0);
+   height: 40px;
+   font-size: 15px;
+   width: 150px;
+
+   font-family: Arial, Helvetica, sans-serif;
+   font-weight: bold;
+
+}
+
+.buttons .viewmore:hover {
+   background-color: aqua;
+   color: black;
+   transition: 0.3s ease;
+
+}
+
+.buttons .contact:hover {
+   background-color: transparent;
+   color: rgb(255, 253, 253);
+   transition: 0.3s ease;
+
+}
+
+.about {
+
+   position: absolute;
+   background-color: rgb(0, 0, 0);
+   height: 700px;
+   width: 100%;
+   top: 700px;
+   color: black;
+   z-index: -99;
+
+}
+
+.about .blue {
+   background-color: aqua;
+   width: 30%;
+   height: 700px;
+   position: relative;
+   top: -50px;
+   z-index: -99;
+   border-radius: 0px 0px 50px 10px;
+
+}
+
+.about .blue .image {
+   height: 250px;
+   width: 350px;
+   margin-left: 10px;
+   padding-top: 20px;
+   box-shadow: 5px 10px aqua;
+   position: relative;
+   top: 80px;
+}
+
+.about h2 {
+   color: rgb(255, 255, 255);
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   position: relative;
+   top: 37px;
+
+   width: 100%;
+   text-shadow: 0px 0px 100px aqua;
+   font-size: 68px;
+
+}
+
+.about span {
+   color: black;
+
+   font-size: 68px;
+}
+
+
+/*black and white text*/
+div.info {
+   position: relative;
+   top: 620px;
+   font-family: 'Handlee', cursive;
+   font-size: 25px;
+   width: 100%;
+   font-weight: bolder;
+
+
+
+   background: linear-gradient(90deg, rgb(0, 0, 0) 30%, rgb(255, 255, 255) 20%);
+
+   -webkit-background-clip: text;
+   -webkit-text-fill-color: transparent;
+}
+
+.info p {
+   text-shadow: -100px 0px 30px #000000;
+   margin-top: 100px;
+}
+
+.skills {
+   position: relative;
+   height: 350px;
+   background-color: transparent;
+   width: 100%;
+   top: 750px;
+   display: flex;
+   justify-content: center;
+   align-content: center;
+
+
+
+}
+
+.skills img {
+   width: 95%;
+   position: relative;
+   height: 250px;
+   z-index: -99;
+   top: -120px;
+   box-shadow: -10px 10px aqua;
+   border: 1px solid aqua;
+}
+
+.info h3 {
+   margin-top: 100px;
+   background-color: #000000;
+   font-size: 60px;
+   text-shadow: 1px 1px 1px rgb(255, 255, 255);
+   z-index: -9;
+   font-family: 'Patrick Hand', cursive;
+   height: 80px;
+   width: 200px;
+   position: relative;
+   border-radius: 50px;
+   left: 30vw;
+
+}
+
+.line {
+   position: relative;
+   z-index: -99;
+   border-radius: 100px;
+   top: -35px;
+   left: 10%;
+   width: 80%;
+}
+
+.empty {
+   height: 100px;
+   width: px;
+   background-color: aqua;
+   position: relative;
+   left: 320px;
+   top: 65px;
+   border-radius: 0px 0px 50px 50px;
+}
+
+
+.skillstxt {
+   background-color: #000000;
+   height: 300px;
+   width: 100%;
+   z-index: -999;
+   position: absolute;
+   top: 2000px;
+
+
+
+
+}
+
+.skillstxt ul li {
+   float: none;
+   position: relative;
+   width: 70%;
+   top: -200px;
+
+   font-size: larger;
+   margin: 20px;
+}
+
+.bar {
+   height: 118px;
+
+   position: relative;
+   width: 70%;
+   top: -350px;
+   left: 100px;
+}
+
+.bar .bar1,
+.bar2,
+.bar3 {
+   background: rgb(82, 82, 82);
+   height: 10px;
+   border-radius: 500px;
+   margin-top: 40px;
+   font-size: 12px;
+   font-weight: 500;
+   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.bar .html {
+   background-color: aqua;
+   width: 90%;
+   height: 10px;
+   border-radius: 500px;
+
+   display: flex;
+   justify-content: center;
+   align-self: center;
+   color: #000000;
+
+   box-shadow: 1px 1px 20px aqua;
+
+}
+
+.bar .css {
+   background-color: aqua;
+   width: 80%;
+   height: 10px;
+   border-radius: 500px;
+   box-shadow: 1px 1px 20px aqua;
+   display: flex;
+   justify-content: center;
+   align-self: center;
+   color: #000000;
+
+}
+
+.bar .js {
+   background-color: aqua;
+   width: 60%;
+   height: 10px;
+   border-radius: 500px;
+   display: flex;
+   justify-content: center;
+   align-self: center;
+   box-shadow: 1px 1px 20px aqua;
+   color: #000000;
+}
+
+
+.skillstxt p {
+   font-weight: bolder;
+   font-size: 30px;
+   position: relative;
+   top: -200px;
+   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.skillstxt hr {
+   position: relative;
+   top: -200px;
+}
+
+.nontech {
+   position: relative;
+   top: -100px;
+}
+
+.nontech p {
+   position: relative;
+   top: -200px;
+   font-size: 30px;
+   margin-left: 20px;
+   width: 300px;
+   background-color: #000000;
+}
+
+.nontech hr {
+   position: relative;
+   top: -200px;
+
+}
+
+.nontech ul {
+   position: relative;
+   top: 20px;
+
+   width: 320px;
+
+}
+
+.techbg {
+   background-color: transparent;
+   height: 400px;
+   width: 270px;
+   border: 2px solid aqua;
+   position: relative;
+   left: 70px;
+   z-index: -99;
+   top: -570px;
+   box-shadow: 10px 10px aqua;
+}
+
+.nontech li {
+   margin: 10px;
+   background: #000000;
+   width: 300px;
+}
+
+form input {
+   height: 40px;
+   width: 300px;
+   border-radius: 10px;
+   border: none;
+   margin: 5px;
+   padding-left: 10px;
+
+
+}
+
+textarea {
+   border-radius: 5px;
+   border: none;
+   margin: 5px;
+
+}
+
+textarea::placeholder {
+   padding: 10px;
+}
+
+form {
+   position: relative;
+   margin-left: 20px;
+   display: grid;
+   flex-wrap: nowrap;
+   justify-content: center;
+   align-content: center;
+}
+
+.contactus {
+   position: relative;
+   background: #000000;
+   border: none;
+   height: 500px;
+   width: 100%;
+   top: 1400px;
+   text-shadow: 1px 1px 0px aqua;
+}
+
+.contactus p {
+   font-size: 45px;
+   font-family: 'Handlee', cursive;
+   font-weight: bolder;
+   justify-self: center;
+   color: rgb(255, 255, 255);
+}
+
+.contactus hr {
+   position: relative;
+   left: 90px;
+   border-radius: 100px;
+   margin-bottom: 20px;
+}
+
+::placeholder {
+   padding-left: 10px;
+   font-size: 15px;
+   font-family: 'Handlee', cursive;
+
+}
+
+form button {
+   height: 45px;
+   width: 200px;
+   border-radius: 5px;
+   border: 1px solid aqua;
+   background: aqua;
+   color: rgb(0, 0, 0);
+   font-size: medium;
+   font-family: cursive;
+   font-weight: bold;
+
+   justify-self: center;
+   margin-top: 20px;
+
+}
+
+form button:hover {
+   background-color: rgb(0, 0, 0);
+   color: aqua;
+   box-shadow: none;
+}
+
+
+
+
+
+
+footer {
+   position: relative;
+   top: 1300px;
+}
+
+@media (max-height:800px) {
+   footer {
+      position: static;
+   }
+
+   header {
+      padding-top: 40px;
+   }
+}
+
+
+.footer-distributed {
+   background-color: rgb(7, 7, 7);
+   box-sizing: border-box;
+   width: 100%;
+   text-align: left;
+   font: bold 16px sans-serif;
+   padding: 50px 50px 60px 50px;
+   margin-top: 80px;
+   position: relative;
+
+}
+
+.footer-distributed .footer-left,
+.footer-distributed .footer-center,
+.footer-distributed .footer-right {
+   display: inline-block;
+   vertical-align: top;
+}
+
+/* Footer left */
+
+.footer-distributed .footer-left {
+   width: 30%;
+}
+
+.footer-distributed h3 {
+   color: #ffffff;
+   font: normal 36px 'Cookie', cursive;
+   margin: 0;
+}
+
+/* The company logo */
+
+.footer-distributed .footer-left img {
+   width: 30%;
+}
+
+.footer-distributed h3 span {
+   color: #01e9f5;
+}
+
+/* Footer links */
+
+.footer-distributed .footer-links {
+   color: #ffffff;
+   margin: 20px 0 12px;
+}
+
+.footer-distributed .footer-links a {
+   display: inline-block;
+   line-height: 1.8;
+   text-decoration: none;
+   color: inherit;
+}
+
+.footer-distributed .footer-company-name {
+   color: #8f9296;
+   font-size: 14px;
+   font-weight: normal;
+   margin: 0;
+}
+
+/* Footer Center */
+
+.footer-distributed .footer-center {
+   width: 35%;
+}
+
+
+.footer-distributed .footer-center i {
+   background-color: #363636;
+   color: #ffffff;
+   font-size: 25px;
+   width: 38px;
+   height: 38px;
+   border-radius: 50%;
+   text-align: center;
+   line-height: 42px;
+   margin: 10px 15px;
+   vertical-align: middle;
+}
+
+.footer-distributed .footer-center i.fa-envelope {
+   font-size: 17px;
+   line-height: 38px;
+}
+
+.footer-distributed .footer-center p {
+   display: inline-block;
+   color: #ffffff;
+   vertical-align: middle;
+   margin: 0;
+}
+
+.footer-distributed .footer-center p span {
+   display: block;
+   font-weight: normal;
+   font-size: 14px;
+   line-height: 2;
+}
+
+.footer-distributed .footer-center p a {
+   color: #e0ac1c;
+   text-decoration: none;
+   ;
+}
+
+
+/* Footer Right */
+
+.footer-distributed .footer-right {
+   width: 30%;
+}
+
+.footer-distributed .footer-company-about {
+   line-height: 20px;
+   color: #92999f;
+   font-size: 13px;
+   font-weight: normal;
+   margin: 0;
+}
+
+.footer-distributed .footer-company-about span {
+   display: block;
+   color: #ffffff;
+   font-size: 18px;
+   font-weight: bold;
+   margin-bottom: 20px;
+}
+
+.footer-distributed .footer-icons {
+   margin-top: 25px;
+}
+
+.footer-distributed .footer-icons a {
+   display: inline-block;
+   width: 35px;
+   height: 35px;
+   cursor: pointer;
+   background-color: #0092ed;
+   border-radius: 12px;
+
+
+   font-size: 20px;
+   color: #ffffff;
+   text-align: center;
+   line-height: 35px;
+
+   margin-right: 3px;
+   margin-bottom: 5px;
+}
+
+/* Here is the code for Responsive Footer */
+/* You can remove below code if you don't want Footer to be responsive */
+
+
+@media (max-width: 880px) {
+
+   .footer-distributed .footer-left,
+   .footer-distributed .footer-center,
+   .footer-distributed .footer-right {
+      display: block;
+      width: 100%;
+      margin-bottom: 40px;
+      text-align: center;
+   }
+
+   .footer-distributed .footer-center i {
+      margin-left: 0;
+   }
+}
+
+
+/*
+@media only screen and (min-width:420px) and (max-width:430px){
+   .developer{
+      font-size: 72px;
+      font-weight: 200;
+      position: relative;
+      top: 25px;
+   }
+    
+
+   .kaushal{
+      font-size: 65px;
+      font-weight: 200;
+   }
+   .designer{
+      font-size: 65px;
+      font-weight: 300;
+      position: relative;
+      top: 55px;
+   }
+ .info{
+   top: 150%;
+ }
+   .info h3{
+      left: 30%;
+     
+   }
+.buttons{
+   top: 500%;
+}
+
+.all{
+   position: relative;
+   top: 70px;
+}
+.about .blue{
+   top: -25px;
+}
+.about h2{
+   top: 50px;
+}
+}
+
+/*--------------------- small phone-----------------------------*/
+@media only screen and (min-width:601px)and (max-width:759px)  {
+
+.info h3{
+   left: 35%;
+}
+.skills img{
+   height: 90%;
+}
+.skillstxt p, hr{
+margin-top: 10%;
+}
+img .image{
+   width: 0%;
+}
+img.logo{
+   width: 60%;
+   height: 4%;
+}
+
+.about .blue .image{
+   width: 250%;
+   height: 50%;
+}
+  
+.contactus hr{
+   left: 25%;
+}
+form input{
+   width: 400px;
+   height: 50px;
+}
+textarea{
+   height: 200px;
+}
+.footer-distributed{
+   margin-top: 100px;
+}
+.icons{
+   left: 35%;
+}
+.nontech{
+  left: -5%;
+   display: grid;
+   justify-content: center;
+}
+}
+
+@media only screen and (min-width:320px)and (max-width:425px)  {
+   .textbg h1 {
+      position: relative;
+      left: 20px;
+      top: 80px;
+   }
+   img.logo{
+      width: 62%;
+      height: 4%;
+    
+   }
+ 
+   .footer-distributed {
+      width: 112%;
+   }
+
+   hr.hr {
+      position: relative;
+      left: 50px;
+      top: 160px
+   }
+
+   .socialmedia {
+      position: relative;
+      top: 150px;
+   }
+
+   .icons {
+      position: relative;
+      top: 150px;
+   }
+
+   .buttons {
+      position: relative;
+      top: 55%;
+      left: 20px;
+
+   }
+
+   .buttons .contact {
+      margin-left: 20px;
+      height: 40px;
+      width: 320px;
+      position: relative;
+      left: 20px;
+   }
+
+   .buttons .viewmore {
+      position: relative;
+      left: -20px;
+      height: 40px;
+      width: 320px;
+   }
+
+   hr.line {
+      position: relative;
+      left: 50px;
+      width: 85%;
+   }
+
+   .skills img {
+      position: relative;
+      left: 25px;
+
+   }
+
+   .info h3 {
+      margin-top: 0px;
+   }
+
+   form {
+      margin-right: -30px;
+   }
+
+   .info p {
+      padding-left: 50px;
+      margin-top: 40px;
+   }
+ 
+}
+
+
+/*--------------------- tablet-----------------------------*/
+
+@media only screen and (min-width:760px)and (max-width:1000px) {
+   .navs li {
+      font-size: 30px;
+      padding-top: 15px;
+   }
+
+   .navs li svg {
+      height: 30px;
+      width: 30px;
+   }
+
+   img.logo {
+      height: 5.5vh;
+      width: auto;
+      top: 20px;
+   }
+
+   .textbg .kaushal {
+      font-size: 120px;
+   }
+
+   .textbg .developer {
+      font-size: 140px;
+   }
+
+   .textbg .designer {
+      font-size: 120px;
+   }
+
+   span.im {
+      font-size: 30px;
+   }
+
+   .textbg h1 {
+      top: 240px;
+   }
+
+   .icons {
+      width: 400px;
+      height: 50px;
+      top: 350px;
+   }
+
+   .icons svg {
+      height: 45px;
+      width: 45px;
+      margin: 5px;
+   }
+
+   .buttons {
+      top: 420px;
+   }
+
+   .contact {
+      width: 300px;
+      height: 70px;
+      font-size: 27px;
+   }
+
+   .viewmore {
+      width: 300px;
+      height: 70px;
+      font-size: 27px;
+   }
+
+   nav {
+      height: 100px;
+      background-color: #000000;
+   }
+
+
+   .hr {
+      height: 5px;
+      top: 375px;
+   }
+
+   .socialmedia {
+      font-size: 30px;
+      top: 370px;
+   }
+
+   .about {
+      top: 1200px;
+   }
+
+   .icons svg:hover {
+      height: 40px;
+      width: 40px;
+   }
+
+   .about h2 span {
+      font-size: 150px;
+   }
+
+   .about h2 {
+      font-size: 150px;
+      top: 100px;
+   }
+
+   .about .blue {
+      height: 1400px;
+   }
+
+   .about .blue .image {
+      height: 500px;
+      width: 700px;
+      margin-top: 70px;
+      margin-left: 30px;
+   }
+
+
+   .info p {
+      font-size: 50px;
+      margin-top: 350px;
+      text-shadow: none;
+   }
+
+   div.info {
+      top: 1000px;
+   }
+
+   .skills img {
+      top: 360px;
+      height: 500px;
+   }
+
+   .info h3 {
+      top: 60px;
+      font-size: 100px;
+      width: 350px;
+      left: 250px;
+      height: 120px;
+   }
+
+   hr.line {
+      height: 7px;
+      top: 30px;
+   }
+
+   div.contactus {
+      top: 2700px;
+   }
+
+
+   footer {
+      top: 3000px;
+   }
+
+   .skillstxt {
+      top: 3700px;
+   }
+
+   .skillstxt p {
+      font-size: 60px;
+      margin-left: -5px;
+   }
+
+   .skillstxt ul li {
+      font-size: 40px;
+   }
+
+   .bar {
+      top: -440px;
+      left: 160px;
+
+   }
+
+
+   .bar .bar1,
+   .bar2,
+   .bar3 {
+      height: 20px;
+      font-size: 22px;
+      margin-top: 50px;
+   }
+
+   .bar .html {
+      height: 20px;
+   }
+
+   .bar .css {
+      height: 20px;
+   }
+
+   .bar .js {
+      height: 20px;
+   }
+
+   .nontech ul li {
+      font-size: 45px;
+      width: 550px;
+      top: -150px;
+      margin-bottom: 40px;
+   }
+
+   .nontech p {
+      width: 600px;
+   }
+
+   .techbg {
+      height: 800px;
+      width: 550px;
+      top: -900px;
+   }
+
+   .contactus p {
+      font-size: 90px;
+   }
+
+   .contactus hr {
+      left: 190px;
+      height: 7px;
+   }
+
+   form input {
+      height: 70px;
+      width: 550px;
+      margin-bottom: 15px;
+      border-radius: 15px;
+   }
+
+   form textarea {
+      height: 250px;
+      border-radius: 15px;
+   }
+
+   ::placeholder {
+      font-size: 25px;
+   }
+
+   form button {
+      width: 350px;
+      height: 60px;
+      font-size: 30px;
+   }
+
+
+
+}
+
+
+
+/**************************desktop/*********************/
+@media only screen and (min-width:1020px)and (max-width:1280px) {
+
+.navs li{
+   font-size: 2vw;
+}
+.navs li svg{
+   height: 3vw;
+   width: 3vw;
+}
+h1{
+   font-size: 0px;
+   top: 100px;
+}
+nav{
+   height: 6vw;
+}
+img.logo{
+   height: 10%;
+   width: 50%;
+}
+ 
+ span.im{
+    font-size: 2.5vw;
+ }
+.kaushal{
+   font-size: 7vw;
+}
+.developer{
+   font-size: 9vw;
+   
+}
+.designer{
+   font-size: 7vw;
+  
+} 
+ 
+
+ 
+
+.icons li svg{
+   height: 3vw;
+   width: 3vw;
+   
+}
+.icons li svg:hover{
+   height: 3.5vw;
+   width: 3.5vw;
+ 
+}
+ 
+ div .icons{
+   width: 250px;
+   left: 37%;
+ 
+ }
+ p.socialmedia{
+   font-size: 20px;
+   margin-top:20px ;
+ }
+.buttons .contact:hover{
+    background-color:aqua;
+    color: #000000;
+    scale: 1.1;
+}
+
+.about h2 {
+font-size: 15vw;
+ top: 20vh;
+ left: 14px;
+
+}
+.about .blue .image{
+height: 70vh;
+width: 60vw;
+margin-top: 20vh;
+left: 10vw;
+}
+ .about span{
+   font-size: 15vw;
+ }
+
+}
+
+
+
+
+
+h1{
+   pointer-events: none;
+}
