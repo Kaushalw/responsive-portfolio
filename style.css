@@ -58,7 +58,9 @@ body {
    height: 100vw;
 
 }
-
+a{
+   text-decoration: none;
+}
 html {
    scroll-behavior: smooth;
 }
