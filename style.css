@@ -1021,8 +1021,8 @@ textarea{
 
    hr.line {
       position: relative;
-      left: 50px;
-      width: 85%;
+    
+      width: 80%;
    }
 
    .skills img {
@@ -1041,6 +1041,7 @@ textarea{
 
    .info p {
       padding-left: 50px;
+      text-shadow: none;
       
 
    }
