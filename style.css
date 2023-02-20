@@ -968,14 +968,7 @@ textarea{
       font-weight: 500;
       margin-top: 10px;
    }
-   .developer{
-      margin-top:10px ;
-
-   }
-   .designer{
-      margin-top:10px ;
-
-   }
+    
    img.logo{
       width: 62%;
       height: 4%;
@@ -1014,12 +1007,12 @@ textarea{
       height: 40px;
       width: 320px;
       position: relative;
-      left: 20px;
+      left: 10px;
    }
 
    .buttons .viewmore {
       position: relative;
-      left: -20px;
+      left: -10px;
       height: 40px;
       width: 320px;
    }
