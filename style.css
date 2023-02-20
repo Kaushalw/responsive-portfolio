@@ -967,7 +967,7 @@ textarea{
       top: 80px;
       font-weight: 500;
       margin-top: 10px;
-      font-size: 70%;
+     
    }
     
    img.logo{
@@ -994,6 +994,7 @@ textarea{
    .icons {
       position: relative;
       top: 150px;
+      font-size: 17px;
    }
 
    .buttons {
