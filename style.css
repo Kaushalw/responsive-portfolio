@@ -36,7 +36,7 @@ ul {
 
 nav {
    cursor: pointer;
-   height: 33px;
+ 
    z-index: 99;
    width: 100%;
    height: 40px;
@@ -965,6 +965,7 @@ textarea{
       position: relative;
       left: 20px;
       top: 80px;
+      font-weight: 400;
    }
    img.logo{
       width: 62%;
