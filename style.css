@@ -963,7 +963,7 @@ textarea{
 @media only screen and (min-width:320px)and (max-width:425px)  {
    .textbg h1 {
       position: relative;
-       
+       line-height: 10px;
       top: 80px;
       font-weight: 500;
       margin-top: 10px;
@@ -1002,7 +1002,7 @@ textarea{
 
    .buttons {
       position: relative;
-      top: 58%;
+      top: 60%;
          
 
    }
