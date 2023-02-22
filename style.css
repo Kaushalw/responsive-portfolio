@@ -969,8 +969,8 @@ textarea{
       margin-top: 10px;
      
    }
-    .all{
-      top: 50px;
+    div.all{
+      top: 150px;
       position: relative;
     }
    img.logo{
