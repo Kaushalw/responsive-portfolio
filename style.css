@@ -978,6 +978,12 @@ textarea{
       height: 4%;
     
    }
+   .about h2{
+      top: 90px;
+   }
+   .about .blue{
+      top: 0;
+   }
  
    .footer-distributed {
       width: 100%;
