@@ -1298,7 +1298,7 @@ textarea{
 
 
 
-/**************************desktop/*********************/
+/**************************desktop/*********************
 @media only screen and (min-width:1020px)and (max-width:1280px) {
 
 .navs li{
@@ -1381,7 +1381,10 @@ left: 10vw;
  }
 
 }
-
+@media only screen and (min-width:1280px)and (max-width:1440px) {
+   
+   
+}
 
 
 
