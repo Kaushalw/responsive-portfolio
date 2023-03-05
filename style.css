@@ -1382,10 +1382,14 @@ left: 10vw;
 
 }
 */
-@media only screen and (min-width:1001px)and (max-width:1440px) {
+@media only screen and (min-width:1001px)and (max-width:1500px) {
    
    .icons {
       left: 41%;
+   }
+   
+ .icons {
+      left: 40%;
    }
 }
 
