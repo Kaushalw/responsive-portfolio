@@ -241,7 +241,7 @@
       <input type="text" placeholder="Enter Name*" id="name" required>
       <input type="email" placeholder="Enter Email*" id="mail" required>
 
-      <textarea placeholder="Message For Us*" id="feedback" cols="30" rows="10"></textarea>
+      <textarea placeholder="Message For Us*" id="descriptions" cols="30" rows="10"></textarea>
 
       <button type="submit" class="submit1"
  onclick="send()">Submit</button>
@@ -336,15 +336,17 @@
 function send(){
 var name=document.getElementById('name').value;
 var description=document.getElementById('descriptions').value;
-Var mail = document.getElementById('mail').value
+var mail = document.getElementById('mail').value
         if ( document.getElementById('name'). value==='') {
                 window.navigator.vibrate('200');
 
                 alert('Enter something🔍');
         }
         else{
-                window.location.href='https://wa.me/919811192234/?text='+'Hy'+
-              ' '+'I'+' '+'Am'+' '+ document.getElementById('name'). value+' '+ description''+mail;
+                window.location.href='https://wa.me/919811192234/?text='+
+'Name:'+' '+name +
+'                                                         '+" Email:"
++ mail+'                                    '+ description;
  
 
                 
