@@ -8,10 +8,10 @@ var mail = document.getElementById('mail').value
                 alert('Enter something🔍');
         }
         else{
-                location.href='https://wa.me/919811192234/?text='+
+                window.open("https://wa.me/919811192234/?text= +
 'Name:'+' '+name +
 '                                                         '+" Email:"
-+ mail+'                                    '+ description;
++ mail+'                                    '+ description");
  
 
                 
