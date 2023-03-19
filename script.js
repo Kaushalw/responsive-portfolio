@@ -1,4 +1,4 @@
-function send(){
+function send(e){
 var name=document.getElementById('name').value;
 var description=document.getElementById('descriptions').value;
 var mail = document.getElementById('mail').value
@@ -8,10 +8,10 @@ var mail = document.getElementById('mail').value
                 alert('Enter something🔍');
         }
         else{
-                location.replace('https://wa.me/919811192234/?text='+
+                location.href='https://wa.me/919811192234/?text='+
 'Name:'+' '+name +
 '                                                         '+" Email:"
-+ mail+'                                    '+ description);
++ mail+'                                    '+ description;
  
 
                 
