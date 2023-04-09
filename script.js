@@ -19,7 +19,7 @@ var mail = document.getElementById('mail').value
 } */
 
 
-function send(e){
+function send(){
         var name=document.getElementById('name').value;
         var description=document.getElementById('descriptions').value;
         var mail = document.getElementById('mail').value;
@@ -36,6 +36,6 @@ function send(e){
         
                         
         }
-        
+
         }
         
