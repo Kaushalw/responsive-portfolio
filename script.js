@@ -24,13 +24,13 @@ function send(){
         var description=document.getElementById('descriptions').value;
         var mail = document.getElementById('mail').value;
 
-                if ( document.getElementById('name'). value==='') {
+                if ( document.getElementById('name'). value=!'') {
                         window.navigator.vibrate('200');
         
                         alert('Enter something🔍');
                 }
                 else{
-                        window.location.href='https://wa.me/919811192234/?text='+'Hy'+
+                       location.href='https://wa.me/919811192234/?text='+'Hy'+
                       ' '+'I'+' '+'Am'+' '+name+' '+ description;
          
         
