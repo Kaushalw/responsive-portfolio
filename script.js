@@ -4,18 +4,14 @@ var email=document.getElementById('mail').value;
 var message=document.getElementById('descriptions').value;
 
 
-alert(name)
-alert(message)
-alert(email)
-      /*  if ( document.getElementById('name1'). value==='') {
+ 
+ if (  name&&email&&message==='') {
                 window.navigator.vibrate('200');
 
                 alert('Enter something🔍');
         }
         else{
                 window.location.href='https://wa.me/919811192234/?text='+'Hy'+
-              ' '+'I'+' '+'Am'+' '+document.getElementById('name1'). value+'                                                  '+document.getElementById('number1').value +'                                              '+email+'                                                                                                                                                                            '+message ;
-  
-}*/
+              ' '+'I'+' '+'Am'+' '+name+'                                                  '+email.value +'                                              '+message+'                   '
+        }
 }
-   
