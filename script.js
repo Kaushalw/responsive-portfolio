@@ -14,4 +14,6 @@ var message=document.getElementById('descriptions').value;
                 window.location.href='https://wa.me/919811192234/?text='+'Hy'+
               ' '+'I'+' '+'Am'+' '+name+'                                                  '+email.value +'                                              '+message+'                   '
         }
+
+        console.log( name&&email&&message)
 }
