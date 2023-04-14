@@ -4,7 +4,9 @@ var email=document.getElementById('mail').value;
 var message=document.getElementById('descriptions').value;
 
 
-alert(name,email,message)
+alert(name)
+alert(message)
+alert(email)
       /*  if ( document.getElementById('name1'). value==='') {
                 window.navigator.vibrate('200');
 
