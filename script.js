@@ -20,8 +20,8 @@ var mail = document.getElementById('mail').value
 
 
 function send(){
-        var name=document.getElementById('name').value;
-        var description=document.getElementById('descriptions').value;
+     /*   var name=document.getElementById('name').value;
+        var msg=document.getElementById('descriptions').value;
         var mail = document.getElementById('mail').value;
 
                 if ( document.getElementById('name'). value!='') {
@@ -36,6 +36,10 @@ function send(){
         
                         
         }
+
+        var win =*/ window.open(`https://wa.me/${9811192234}?text=I%27m%20api%20msg%20hello%20${name}%20friend%20${msg}`, '_blank');
+
+
 
         }
         
