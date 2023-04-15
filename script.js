@@ -5,7 +5,7 @@ var message=document.getElementById('descriptions').value;
 
 
  
- if (  name&&email&&message==='') {
+ if (  name==='') {
                 window.navigator.vibrate('200');
 
                 alert('Enter something🔍');
