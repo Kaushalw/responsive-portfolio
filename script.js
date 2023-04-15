@@ -11,7 +11,7 @@ var message=document.getElementById('descriptions').value;
                 alert('Enter something🔍');
         }
         else{
-                window.location.href='https://wa.me/919811192234/?text='+'Hy'+ ' '+'I'+' '+'Am'+'Name:- '+name+'Email:- '+email.value +' '+message+'     '
+                window.location.href='https://wa.me/919811192234/?text='+'Hy'+ ' '+'I'+' '+'Am'+' '+name+' '+email +' '+message+'     '
         }
 
         console.log( name&&email&&message)
