@@ -6,7 +6,7 @@ function send(event){
             
             
                     window.location.href='https://wa.me/919811192234/?text='
-                  + "*NAME:-*" + name+'       ' + "*MAIL :-*"+query+'       ' + "*QUERY:-*"+query 
+                  + "NAME:-" + name+'  ' + "MAIL :-"+query+'  ' + "QUERY:-"+query 
       
     
                     }
